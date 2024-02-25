@@ -1,0 +1,5 @@
+alias serve='php artisan serve'
+alias cdwww='cd /var/www/lcars'
+alias nanobash='sudo nano ~/.bashrc'
+alias sourcebash='source ~/.bashrc'
+alias cdsite-available='cd /etc/apache2/sites-available'
