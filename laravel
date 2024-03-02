@@ -1,0 +1,23 @@
+<div class="form-group">
+    {!! Form::label('name', 'Name:') !!}
+    {!! Form::text('name', $defaultName, ['class' => 'form-control']) !!}
+</div>
+
+<div class="form-group">
+    {!! Form::label('bio', 'Bio:') !!}
+    {!! Form::textarea('bio', null, ['class' => 'form-control']) !!}
+</div>
+
+<div class="form-group">
+    {!! Form::label('birthdate', 'Birth Date') !!}
+    {!! Form::input('date', 'birthdate', date('Y-m-d'), ['class' => 'form-control']) !!}
+</div>
+
+<div class="form-group">
+    {!! Form::label('movies[]', 'Movies') !!}
+    {!! Form::select('movies[]', $movies, $selectedmovies, ['multiple' => true, 'class' => 'form-control']) !!}
+</div>
+
+<div class="form-group">
+    {!! Form::submit($submitButton, ['class' => 'btn btn-primary']) !!}
+</div>
