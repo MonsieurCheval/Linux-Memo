@@ -21,3 +21,6 @@
 <div class="form-group">
     {!! Form::submit($submitButton, ['class' => 'btn btn-primary']) !!}
 </div>
+
+
+https://randallwilk.dev/docs/laravel-form-components/v8/selects/select
